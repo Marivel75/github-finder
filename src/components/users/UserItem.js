@@ -4,25 +4,6 @@ import {Link} from 'react-router-dom';
 
 const UserItem = ({user:{ avatar_url, login, html_url }}) => {
 
-    /*
-    constructor() {
-        super();
-        this.state = {
-            id: 'id',
-            login: 'mojombo',
-            avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
-            html_url: 'https://github.com/mojombo'
-        };
-    }
-    state = {
-        id: 'id',
-        login: 'mojombo',
-        avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
-        html_url: 'https://github.com/mojombo'
-    };
-    */
-
-    // const {avatar_url, login, html_url} = props.user;
     return (
         <div className="card text-center">
             <img 
